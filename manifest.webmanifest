@@ -1,0 +1,13 @@
+{
+  "name": "Seedhi — learn step by step",
+  "short_name": "Seedhi",
+  "description": "Free, offline-friendly lessons for school students in English and Hindi.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#1f5f4a",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

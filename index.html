@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seedhi</title>
+  <meta name="description" content="Free, offline-friendly lessons for school students in English and Hindi.">
+  <meta name="theme-color" content="#1f5f4a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" id="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="#/">
+      <img src="icon.svg" alt="" width="32" height="32">
+      <span>Seedhi</span>
+    </a>
+    <button class="lang-btn" id="langBtn" type="button" data-action="toggle-lang"></button>
+  </header>
+
+  <p class="offline" id="offline" role="status" hidden></p>
+
+  <main id="main" tabindex="-1"></main>
+
+  <nav class="tabs" id="tabs" aria-label="Main" hidden></nav>
+
+  <div class="sr-only" id="live" aria-live="polite"></div>
+
+  <noscript><p style="padding:1rem">Seedhi needs JavaScript to show lessons. Please turn it on in your browser settings.</p></noscript>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
